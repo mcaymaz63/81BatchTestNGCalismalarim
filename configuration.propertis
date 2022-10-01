@@ -1,0 +1,17 @@
+
+browser=chrome
+
+
+amazonUrl=https://www.amazon.com
+facebookUrl=https://www.facebook.com
+saucedemoUrl=https://www.saucedemo.com/
+
+
+facebookWrongUsername=answsjdbxbls
+facebookWrongPassword=123456
+
+userName=standard_user
+pasword=secret_sauce
+düşüktenFiyat=Price(low to hingt)
+
+
