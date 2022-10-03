@@ -15,4 +15,11 @@ pasword=secret_sauce
 düşüktenFiyat=Price(low to hingt)
 
 
-dd
+bluerentalcarsUrl=https://www.bluerentalcars.com/
+blucarValidEmail=customer@bluerentalcars.com
+blucarPassword=12345
+blucarValidUserName=John Walker
+
+blucarWrongEmail=client@bluerentalcars.com
+blucarWrongPassword=54321
+
