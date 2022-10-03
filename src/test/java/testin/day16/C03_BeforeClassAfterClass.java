@@ -18,7 +18,7 @@ public class C03_BeforeClassAfterClass extends TestBaseBeforeAfter {
 
 
     }
-    @Test
+    @Test(groups = "grup2")
     public void test2() {
         driver.get("https://www.amazon.com");
         System.out.println(driver.getCurrentUrl());

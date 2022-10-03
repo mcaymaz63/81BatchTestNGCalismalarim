@@ -56,7 +56,7 @@ driver.get("https://www.amazon.com");
         Assert.assertTrue(sonucYazisi.getText().contains("Nutella"));
 
     }
-@Test
+@Test(groups = "grup1")
     public void test04() {
         System.out.println("bu calisti ha");
 

@@ -26,7 +26,7 @@ public class C04_Priority extends TestBaseBeforeAfter {
 
     }
 
-    @Test
+    @Test(groups = {"grup1", "grup2"})
     public void test3() {
         driver.get("http://www.hepsiburada.com");
     }
