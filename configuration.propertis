@@ -23,3 +23,24 @@ blucarValidUserName=John Walker
 blucarWrongEmail=client@bluerentalcars.com
 blucarWrongPassword=54321
 
+
+
+!-- Trendyol Test Datalari--!
+trdYolUrl= https://www.trendyol.com/
+
+!-- Trendyol Negatif Test Datalar --!
+trndylNegativeUsername = manager1
+trndylNegativePassword = manager1!
+
+!-- Trendyol Pozitif Test Datalar --!
+trndylPozitiveUsername = Gecerli Kullanic' Adiniz
+trndylPozitivePassword = Gecerli Kullani sciifreniz'
+
+
+
+!-- To-Do-List --!
+toDoList=http://webdriveruniversity.com/To-Do-List/index.html
+
+
+
+
