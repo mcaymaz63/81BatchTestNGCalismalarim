@@ -1,8 +1,6 @@
 package testin.day17;
 
 import Pages.FaceBook;
-import com.github.javafaker.Faker;
-import org.checkerframework.checker.units.qual.A;
 import org.junit.Assert;
 import org.testng.annotations.Test;
 import utilities.ConfigReader;

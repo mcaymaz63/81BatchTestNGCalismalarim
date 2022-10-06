@@ -2,6 +2,7 @@ package testin.day21;
 
 import Pages.TrendYolPage;
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 import utilities.ConfigReader;
 import utilities.Driver;
@@ -46,9 +47,9 @@ public class OdevNegatifTest {
         trendYolPage.mainLogin.click();
 
 
-        trendYolPage.emailBox.sendKeys(ConfigReader.getProperty(""));
-
-        trendYolPage.negativeMessage.sendKeys(ConfigReader.getProperty(""));
+        trendYolPage.emailBox.sendKeys(ConfigReader.getProperty("trndylPozitiveUsername"),
+                Keys.TAB,ConfigReader.getProperty("trndylPozitivePassword"),Keys.ENTER);
+        Thread.sleep(3000);
 
         trendYolPage.girisButton.click();
 

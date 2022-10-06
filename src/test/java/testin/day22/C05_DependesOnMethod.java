@@ -1,4 +1,4 @@
-package testin.day16;
+package testin.day22;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.AfterClass;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class C05_DependesOnMethod  {
+public class C05_DependesOnMethod {
 
     /*
     dependesOnMethod test methodlarinin calisma siralamasina karismaz sadece bagli olan
@@ -55,7 +55,7 @@ driver.get("https://www.amazon.com");
         Assert.assertTrue(sonucYazisi.getText().contains("Nutella"));
 
     }
-@Test(groups = "grup1")
+@Test
     public void test04() {
         System.out.println("bu calisti ha");
 

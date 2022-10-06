@@ -1,4 +1,4 @@
-package testin.practice06;
+package testin.day18.practice06;
 
 import Pages.DhtmlgoodiesPage;
 import org.openqa.selenium.interactions.Actions;

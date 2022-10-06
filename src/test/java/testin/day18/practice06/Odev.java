@@ -1,15 +1,11 @@
-package testin.practice06;
+package testin.day18.practice06;
 
 import Pages.SaucedemoPage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import utilities.ConfigReader;
 import utilities.Driver;
-
-import java.awt.*;
 
 public class Odev {
 

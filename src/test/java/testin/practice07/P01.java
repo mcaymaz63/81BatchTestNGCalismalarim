@@ -1,13 +1,13 @@
 package testin.practice07;
 
 import Pages.WebUniversityPage;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import utilities.ConfigReader;
 import utilities.Driver;
 
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ public class P01 {
     @Test
     public void test01() throws InterruptedException {
         //  // http://webdriveruniversity.com/To-Do-List/index.html adresine gidin adresine gidin
-        Driver.getDriver().get("http://webdriveruniversity.com/To-Do-List/index.html");
+        Driver.getDriver().get(ConfigReader.getProperty("toDoList"));
 
         // Todos ekle: (Kahvaltıyı hazırla, Bulaşıkları yıka, Bebekle ilgilen, Çocuğunun ödevine yardım et, Selenyum çalış, Uyu)
         WebUniversityPage webUniversityPage = new WebUniversityPage();
