@@ -1,4 +1,4 @@
-package testin.day21;
+package testin.day22;
 
 import Pages.AmazonPage;
 import org.openqa.selenium.Keys;
@@ -9,7 +9,6 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class C03_DataProvider {
-
 
     @Test
     public void test01() {
@@ -26,22 +25,20 @@ public class C03_DataProvider {
 Driver.closeDriver();
 
     }
-        @DataProvider
-        public static Object[][] Aranacakkelimeler() {
-
-            Object[][] arananKelimeArrayi= {{"Nutella"}, {"Java"}, {"cigdem"},{"Netherlands"}};
+    @DataProvider
+public static Object[][] Aranacakkelimeler(){
+    Object[][] arananKelimeArrayi= {{"Nutella"}, {"Java"}, {"cigdem"},{"Netherlands"}};
             return arananKelimeArrayi;
-    }
-
-    @Test(dataProvider ="Aranacakkelimeler" )
+}
+    @Test(dataProvider ="Aranacakkelimeler")
     // arayacagimiz kelimelri bir liste gibi tutup
-    // bana yollaycak bir veri saglayici olusturacagiz
+    // bana yollaycak bir veri saglayicisi olusturacagiz
     public void dataProviderTesti(String arananKelime) {
         AmazonPage amazonPage = new AmazonPage();
         // amazona gidiniz
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         // Nutella, Java, cigdem ve Netherlands icin arama yapalim
-        amazonPage.aramaKutusu.sendKeys("arananKelimeArrayi"+ Keys.ENTER);
+        amazonPage.aramaKutusu.sendKeys("arananKelime"+ Keys.ENTER);
         // sonuclarin aradigimiz kelime icerdigini test edelim
         String expectedKelime=arananKelime;
         String actualSonucYazisi=amazonPage.aramaSonucWE.getText();

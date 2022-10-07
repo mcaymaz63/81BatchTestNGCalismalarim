@@ -1,4 +1,4 @@
-package testin.day18.practice06;
+package testin.practice06;
 
 import Pages.SaucedemoPage;
 import org.openqa.selenium.By;

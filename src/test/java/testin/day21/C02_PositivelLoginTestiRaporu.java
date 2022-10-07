@@ -9,7 +9,7 @@ import utilities.TestBaseRapor;
 
 
 
-public class C03_PositivelLoginTestiRaporu extends TestBaseRapor {
+public class C02_PositivelLoginTestiRaporu extends TestBaseRapor {
 
     BluerentalcarsPage bluerentalcarsPage = new BluerentalcarsPage();
         @Test

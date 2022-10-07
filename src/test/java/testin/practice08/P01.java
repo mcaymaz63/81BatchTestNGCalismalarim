@@ -1,4 +1,4 @@
-package testin.pratice08;
+package testin.practice08;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
